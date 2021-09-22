@@ -17,9 +17,11 @@ max_features represents the number of features to consider when looking for the 
 
 # Simplest Model with no hyperparameters
 
+ ~~~ python
 from sklearn.tree import DecisionTreeRegressor
 model = DecisionTreeRegressor(random_state=1)
 # Fit model
 melbourne_model.fit(X, y)
 # predicting
 model.predict(_)
+~~~
