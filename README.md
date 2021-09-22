@@ -15,4 +15,11 @@ min_samples_leaf is The minimum number of samples required to be at a leaf node.
 ## max_features
 max_features represents the number of features to consider when looking for the best split.
 
-## 
+# Simplest Model with no hyperparameters
+
+from sklearn.tree import DecisionTreeRegressor
+model = DecisionTreeRegressor(random_state=1)
+# Fit model
+melbourne_model.fit(X, y)
+# predicting
+model.predict(_)
